@@ -1,0 +1,5 @@
+flask==3.0.3
+pylint==3.3.1
+PyJWT==2.9.0
+python-dotenv==1.0.1
+mongoengine==0.29.1
