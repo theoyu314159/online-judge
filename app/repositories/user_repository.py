@@ -8,4 +8,7 @@ class UserRepository:
     def create(self, username, password):
         user = User(username=username, password=password)
         user.save()
-        return user.id
+
+    def get(self, username):
+        user=User.objects(username=username).first()
+        return user
